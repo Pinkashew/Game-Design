@@ -1,0 +1,220 @@
+{
+    "Title": "Exploring the world of Victoria Island",
+    "Credits": "Created by Manco Tan (mtan45@ucsc.edu).",
+    "InitialLocation": "Henesys",
+    "Locations": {
+        "Henesys": {
+            "Body": "This is Henesys where every journey begins, and ends....",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Hill of Henesys"
+                },
+                {
+                    "Text": "South",
+                    "Target": "Spore Hill"
+                }
+            ]
+        },
+        "Spore Hill": {
+            "Body": "This is Spore Hill, where green mushrooms creatures are abundant. They may be cute, but don't walk too close to them ",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Henesys"
+                },
+                {
+                    "Text": "South",
+                    "Target": "Humming Forest Trail"
+                }
+            ]
+        },
+        "Hill of Henesys": {
+            "Body": "This is the hill of Henesys, where the Orange Mushroom creatures are wildly abundant. Don't get too close or you might get sick....",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Dreamy Forest Trail"
+                },
+                {
+                    "Text": "South",
+                    "Target": "Henesys"
+                }
+            ]
+        },
+        "Dreamy Forest Trail": {
+            "Body": "You enter Dreamy Forest Trail where trees and flowers are abundant everywhere you look. It's as if you woke up in a dream world.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Six Paths Crossway"
+                },
+                {
+                    "Text": "South",
+                    "Target": "Hill of Henesys"
+                }
+            ]
+        },
+        "Humming Forest Trail": {
+            "Body": "You entered Humming Forest Trail. Be careful of the spiky mushrooms they may hurt you if provoked.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Spore Hill"
+                },
+                {
+                    "Text": "South",
+                    "Target": "Windflower Forest"
+                },
+                {
+                    "Text": "Go off trail...",
+                    "Target": "Mushmom Home" 
+                }
+            ]
+        },
+        "Mushmom Home": {
+            "Body": "The mother of all Green Mushrooms live here. This is her home do not intrude....",
+            "Choices": [
+                {
+                    "Text": "Return back to trail",
+                    "Target": "Humming Forest Trail"
+                }
+            ]
+        },
+        "Windflower Forest": {
+            "Body": "There is heavy wind here. You see spores flying everywhere....maybe this is the cause of the mushrooms going beserk in this area.",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Humming Forest Trail"
+                },
+                {
+                    "Text": "East",
+                    "Target": "Golem Temple Entrance"
+                },
+                {
+                    "Text": "West",
+                    "Target": "Blue Mushroom Forest"
+                }
+            ]
+        },
+        "Blue Mushroom Forest": {
+            "Body": "Everywhere you see is blue....blue plants, blue mushroom creatures. TOO MUCH BLUE.",
+            "Choices": [
+                {
+                    "Text": "East",
+                    "Target": "Even more Blue Mushroom"
+                },
+                {
+                    "Text": "West",
+                    "Target": "Windflower Forest"
+                }
+            ]
+        },
+        "Even more Blue Mushroom": {
+            "Body": "SO MUCH BLUE.....you see some blue mushroom creatures crying...you think to yourself what happened.",
+            "Choices": [
+                {
+                    "Text": "Big Mushroom Castle",
+                    "Target": "Mushroom Castle"
+                },
+                {
+                    "Text": "West",
+                    "Target": "Blue Mushroom Forest"
+                },
+                {
+                    "Text": "South",
+                    "Target": "Blue Mushmom"
+                }
+            ]
+        },
+        "Mushroom Castle": {
+            "Body": "Behold the mighty and extravagant home of the MUSHROOM KING!!!",
+            "Choices": [
+                {
+                    "Text": "Leave",
+                    "Target": "Even more Blue Mushroom"
+                },
+                {
+                    "Text": "Go In",
+                    "Target": "Inside Castle"
+                }
+            ]
+        },
+        "Inside Castle": {
+            "Body": "You see gold ornaments hanging and a massive plaza in the middle.",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "Mushroom Castle"
+                }
+            ]
+        },
+        "Six Paths Crossway": {
+            "Body": "You reached it. The heart of Victoria Island, where anything is possible and nowhere is impossible to reach.",
+            "Choices": [
+                {
+                    "Text": "Erm Under Construction",
+                    "Target": "Come back later."
+                },
+                {
+                    "Text": "South",
+                    "Target": "Dreamy Forest Trail"
+                }
+            ]
+        },
+        "Come back later": {
+            "Body": "Hey! You're not supposed to make it this far in yet! Shoo Shoo",
+            "Choices": [
+                {
+                    "Text": "Head Back",
+                    "Target": "Six Paths Crossway"
+                }
+            ]
+        },
+        "Golem Temple Entrance": {
+            "Body": "You reached an old abandoned temple. You hear loud thumping inside what could it be? Some sort of Giant?",
+            "Choices": [
+                {
+                    "Text": "Head in...",
+                    "Target": "Death"
+                },
+                {
+                    "Text": "West",
+                    "Target": "Windflower Forest"
+                }
+            ]
+        },
+        "Blue Mushmom": {
+            "Body": "Rachel Carson College, more sun and fewer trees.",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "Even more Blue Mushroom"
+                }
+            ]
+        },
+        "Death": {
+            "Body": "Really? You heard the loud thumps and YOU STILL went in? Dummy of the year goes to....",
+            "Choices": [
+                {
+                    "Text": "Respawn",
+                    "Target": "Henesys Respawn"
+                }
+            ]
+        },
+        "Henesys Respawn": {
+            "Body": "Welcome to Henesys for the 2nd time. Maybe don't go into where loud thumps and footsteps are?",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Hill of Henesys"
+                },
+                {
+                    "Text": "South",
+                    "Target": "Spore Hill"
+                }
+            ]
+        }
+    }
+}
