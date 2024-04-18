@@ -78,6 +78,20 @@
                 {
                     "Text": "Return back to trail",
                     "Target": "Humming Forest Trail"
+                },
+                {
+                    "Text": "Grab Key",
+                    "Target": "Has Key"
+                }
+            ]
+        },
+        "Has Key": {
+            "Has key": "You have obtained a key",
+            "Body": "You found a key. I wonder what it does...",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "Mushmom Home"
                 }
             ]
         },
@@ -143,6 +157,7 @@
         },
         "Inside Castle": {
             "Body": "You see gold ornaments hanging and a massive plaza in the middle.",
+            "Hidden": "The key you have starts to glow and you open the door and leave Victoria Island.",
             "Choices": [
                 {
                     "Text": "Go back",
@@ -173,7 +188,8 @@
             ]
         },
         "Golem Temple Entrance": {
-            "Body": "You reached an old abandoned temple. You hear loud thumping inside what could it be? Some sort of Giant?",
+            "Body": "You reached an old abandoned temple. You hear loud thumping inside what could it be? Some sort of Golem?",
+            "Warning": "Danger please return back to trail!",
             "Choices": [
                 {
                     "Text": "Head in...",
